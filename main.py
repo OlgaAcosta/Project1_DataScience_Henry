@@ -9,7 +9,7 @@ app = FastAPI()
 
 
 # Obtengo los datos en un dataframe:
-df_movies = pd.read_csv("datasets\movies.csv", sep=",")
+df_movies = pd.read_csv("datasets/movies.csv", sep=",")
 df_movies.info()
 
 # FUNCIÓN 1:
@@ -233,7 +233,7 @@ def recomendacion(titulo: str):
     devuelve recomendaciones para cada una, diferenciándolas por el año. Si el valor ingresado no es string o no se 
     encuentra en los datos, devuelve un diccionario con el error correspondiente."""
     
-    movies= pd.read_csv("datasets\ml_movies.csv")
+    movies= pd.read_csv("datasets/ml_movies.csv")
 
   # Verifico si el titulo es un string:
     if type(titulo)!= str:
