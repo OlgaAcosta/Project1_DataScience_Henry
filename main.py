@@ -310,4 +310,3 @@ def recomendacion(titulo: str):
     return recommendations_dict
 
 
-print(recomendacion("titanic"))
