@@ -2,12 +2,18 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import ast
+from fastapi import FastAPI
+import uvicorn
+
+app = FastAPI()
+
 
 # Obtengo los datos en un dataframe:
 df_movies = pd.read_csv("datasets\movies.csv", sep=",")
 df_movies.info()
 
 # FUNCIÓN 1:
+@app.get("/peliculas_idioma/{idioma}")
 def peliculas_idioma(idioma: str):
     """Recibe por parámetro un idioma (string) y devuelve un diccionario con la cantidad de películas
     producidas en ese idioma. Si el valor ingresado no es string o no se encuentra en los datos,
@@ -40,7 +46,8 @@ def peliculas_idioma(idioma: str):
         return e
     
 
-# FUNCIÓN 2:    
+# FUNCIÓN 2:
+@app.get("/peliculas_duracion/{pelicula}")    
 def peliculas_duracion(pelicula: str):
     """Recibe por parámetro una pelicula (string) y devuelve un diccionario con la duracion y el año. 
     Si encuentra más de una película con el mismo nombre, devuelve los datos para cada una de ellas.
@@ -78,7 +85,7 @@ def peliculas_duracion(pelicula: str):
 
 
 # FUNCIÓN 3:
-
+@app.get("/franquicia/{franquicia}")
 def franquicia(franquicia: str):
     """Recibe por parámetro una franquicia (string) y devuelve un diccionario con la cantidad de peliculas,
     ganancia total y promedio. Si el valor ingresado no es string o no se encuentra en los datos, devuelve 
@@ -111,6 +118,7 @@ def franquicia(franquicia: str):
     
 
 # FUNCIÓN 4:
+@app.get("/peliculas_pais/{pais}")
 def peliculas_pais(pais: str):
     """Recibe por parámetro un país (string) y devuelve un diccionario con la cantidad de peliculas producidas
     en el mismo. Si el valor ingresado no es string o no se encuentra en los datos, devuelve un diccionario 
@@ -141,7 +149,7 @@ def peliculas_pais(pais: str):
     
     
 # FUNCIÓN 5:
-
+@app.get("/productoras_exitosas/{productora}")
 def productoras_exitosas( productora : str ):
     """Recibe por parámetro una productora (string) y devuelve un diccionario con el revenue total y la cantidad
     de peliculas que realizó. Si el valor ingresado no es string o no se encuentra en los datos, devuelve un 
@@ -173,7 +181,7 @@ def productoras_exitosas( productora : str ):
     
     
 # FUNCIÓN 6:
-
+@app.get("/get_director/{nombre_director}")
 def get_director( nombre_director: str ):
     """Recibe por parámetro un director (string) y devuelve un diccionario la suma del revenue. Además, devuelve
     el nombre de cada película dirigida con la fecha de lanzamiento, retorno individual, costo y ganancia de la misma, 
@@ -218,6 +226,7 @@ def get_director( nombre_director: str ):
     
     
 # FUNCIÓN 7:
+@app.get("/recomendacion/{titulo}")
 def recomendacion(titulo: str):
     """Recibe por parámetro una película (string) y devuelve un diccionario con cinco recomendaciones de peliculas
     en orden de similitud, junto a sus género y vote_average. Si encuentra más de una película con el mismo nombre,

@@ -1,0 +1,6 @@
+uvicorn
+pandas
+numpy
+FastApi
+matplotlib 
+scikit-learn

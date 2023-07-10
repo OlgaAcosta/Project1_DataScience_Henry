@@ -1,7 +1,2 @@
-uvicorn
-pandas
-numpy
-FastApi
-matplotlib 
-scikit-learn
-ast
+myenv/
+*.pyc
