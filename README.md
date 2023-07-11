@@ -1,19 +1,19 @@
-<p align="center">
-  <h1>PROYECTO INDIVIDUAL Nº1</h1>
-</p>
+<h1 align=center> <strong>PROYECTO INDIVIDUAL Nº1</strong> </h1>
 
+<h2 align="center">Machine Learning Operations (MLOps)</h2>
+  <h3 align="center"> <i>Realizado por Olga Acosta </i></h3>
+  
 <p align="center">
   <img src="https://e17r5k-datap1.s3-eu-west-1.amazonaws.com/evercorp-empleo-blog/s3fs-public/mlops-versionado-de-modelos_0.png" alt="Imagen MLOps">
-  <h2>Machine Learning Operations (MLOps)</h2>
-  <em>Realizado por Olga Acosta</em>
 </p>
+
+
+## Introducción
+Este proyecto corresponde al primero de la etapa de *Lab's* del programa de **Data Science** de **Henry**. El rol a desempeñar es el de MLOps Engineer.
 
 <p align="center">
   <img src="https://assets.soyhenry.com/henry-landing/assets/Henry/logo.png" alt="Logo Henry">
 </p>
-
-## Introducción
-Este proyecto corresponde al primero de la etapa de *Lab's* del programa de **Data Science** de **Henry**. El rol a desempeñar es el de MLOps Engineer.
 
 ## Contexto de los datos
 Los datos a partir de los cuales se desarrolló el proyecto fueron dos archivos en formato csv: *movies_dataset.csv* y *credits.csv*.
