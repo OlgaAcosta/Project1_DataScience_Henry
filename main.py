@@ -318,4 +318,3 @@ def recomendacion(titulo: str):
     return recommendations_dict
 
 
-print(peliculas_idioma(8))
