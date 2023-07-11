@@ -1,14 +1,14 @@
-# PROYECTO INDIVIDUAL Nº1
+# **PROYECTO INDIVIDUAL Nº1**
 
 ## Machine Learning Operations (MLOps)
-Realizado por Olga Acosta
+*Realizado por Olga Acosta*
 
-![Imagen MLOps](https://drive.google.com/file/d/1YPBYE35nQGHmN1sYdr0R5mq14ZzsV4uj/view?usp=sharing)
+![Imagen MLOps](https://e17r5k-datap1.s3-eu-west-1.amazonaws.com/evercorp-empleo-blog/s3fs-public/mlops-versionado-de-modelos_0.png)
 
 ## Introducción
-Este proyecto corresponde al primero de la etapa de "Lab's" del programa de Data Science de Henry. El rol a desempeñar es el de MLOps Engineer.
+Este proyecto corresponde al primero de la etapa de "Lab's" del programa de **Data Science** de **Henry**. El rol a desempeñar es el de MLOps Engineer.
 
-![Logo Henry]((https://images.app.goo.gl/HQUovVYKeWLs85oh7)
+![Logo Henry](https://assets.soyhenry.com/henry-landing/assets/Henry/logo.png)
 
 ## Contexto de los datos
 Los datos a partir de los cuales se desarrolló el proyecto fueron dos archivos CSV: "movies_dataset.csv" y "credits.csv".
@@ -51,7 +51,7 @@ Se puede revisar el paso a paso documentado de este proceso en el siguiente link
 - Comparar los índices de similitud y obtener las cinco más similares.
 - Crear un diccionario con los datos correspondientes a las cinco películas elegidas.
 
-Se puede revisar el paso a paso documentado del proceso de EDA y ML en el siguiente link: [Notebook ML](https://colab.research.google.com/drive/1CUi06VKs2fPI5aYu0TVrDLV81uMahyCl?usp=sharing)
+Se puede revisar el paso a paso documentado del proceso de ML en la sección final del siguiente link: [Notebook ML](https://colab.research.google.com/drive/1CUi06VKs2fPI5aYu0TVrDLV81uMahyCl?usp=sharing)
 
 ## Resultado
 
