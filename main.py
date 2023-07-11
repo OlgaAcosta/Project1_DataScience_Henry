@@ -19,13 +19,13 @@ def peliculas_idioma(idioma: str):
     producidas en ese idioma. Si el valor ingresado no es string o no se encuentra en los datos,
     devuelve un diccionario con el error correspondiente."""
 
-    #Obtener una lista con los nombres de los idiomas sin repetirlos
-    languages_list = list(df_movies["original_language"].unique())
-
     # Verifico si es string
     try:
         if not isinstance(idioma, str):
             raise ValueError({"Error":"Tipo de dato debe ser un string."})
+        
+        # Si es string, obtengo una lista con los nombres de los idiomas sin repetirlos
+        languages_list = list(df_movies["original_language"].unique())
 
         # Si el idioma se encuentra en la lista:
         if idioma in languages_list:
