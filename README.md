@@ -1,25 +1,31 @@
-# **PROYECTO INDIVIDUAL Nº1**
+<p align="center">
+  <h1>PROYECTO INDIVIDUAL Nº1</h1>
+</p>
 
-## Machine Learning Operations (MLOps)
-*Realizado por Olga Acosta*
+<p align="center">
+  <img src="https://e17r5k-datap1.s3-eu-west-1.amazonaws.com/evercorp-empleo-blog/s3fs-public/mlops-versionado-de-modelos_0.png" alt="Imagen MLOps">
+  <h2>Machine Learning Operations (MLOps)</h2>
+  <em>Realizado por Olga Acosta</em>
+</p>
 
-![Imagen MLOps](https://e17r5k-datap1.s3-eu-west-1.amazonaws.com/evercorp-empleo-blog/s3fs-public/mlops-versionado-de-modelos_0.png)
+<p align="center">
+  <img src="https://assets.soyhenry.com/henry-landing/assets/Henry/logo.png" alt="Logo Henry">
+</p>
 
 ## Introducción
 Este proyecto corresponde al primero de la etapa de *Lab's* del programa de **Data Science** de **Henry**. El rol a desempeñar es el de MLOps Engineer.
-
-![Logo Henry](https://assets.soyhenry.com/henry-landing/assets/Henry/logo.png)
 
 ## Contexto de los datos
 Los datos a partir de los cuales se desarrolló el proyecto fueron dos archivos en formato csv: *movies_dataset.csv* y *credits.csv*.
 
 - Datasets otorgados: [Enlace a los datasets](https://drive.google.com/drive/folders/1qyq-didCwr35Q9m2BOByNjYOf4rSQiYu?usp=sharing)
-
 - Diccionario del dataset *movies_dataset.csv*: [Enlace al diccionario](https://docs.google.com/spreadsheets/d/1QkHH5er-74Bpk122tJxy_0D49pJMIwKLurByOfmxzho/edit#gid=0)
 
 ## Propuesta de trabajo
 
-![Flujo de trabajo](https://raw.githubusercontent.com/HX-PRomero/PI_ML_OPS/main/src/DiagramaConceptualDelFlujoDeProcesos.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HX-PRomero/PI_ML_OPS/main/src/DiagramaConceptualDelFlujoDeProcesos.png" alt="Flujo de trabajo">
+</p>
 
 ### ETL
 - Desanidar datos de diversos campos.
@@ -55,7 +61,9 @@ Se puede revisar el paso a paso documentado del proceso de ML en la sección fin
 
 ## Resultado
 
-![Resultado](https://drive.google.com/file/d/1wq-ZL8w0ez1-TQw9jTI1JCb13EeEu0UB/view?usp=drive_link)
+<p align="center">
+  <img src="https://github.com/OlgaAcosta/Project1_DataScience_Henry/blob/main/src/imagen%20fastapi%20final.jpeg" alt="Resultado">
+</p>
 
 El resultado final consiste en una API renderizada con las siete funciones requeridas.
 
@@ -65,12 +73,14 @@ Se puede revisar el paso a paso documentado de las siete funciones en el siguien
 
 ## Herramientas utilizadas
 
-![Python](ruta_de_imagen_python.jpg)
-![Scikit-Learn](ruta_de_imagen_scikitlearn.jpg)
-![Pandas](ruta_de_imagen_pandas.jpg)
-![NumPy](ruta_de_imagen_numpy.jpg)
-![Matplotlib](ruta_de_imagen_matplotlib.jpg)
-![FastAPI](ruta_de_imagen_fastapi.jpg)
-![Render API](ruta_de_imagen_render_api.jpg)
+- Python
+- Scikit-Learn
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- FastAPI
+- Render API
+
 
 
