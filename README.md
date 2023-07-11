@@ -6,16 +6,16 @@
 ![Imagen MLOps](https://e17r5k-datap1.s3-eu-west-1.amazonaws.com/evercorp-empleo-blog/s3fs-public/mlops-versionado-de-modelos_0.png)
 
 ## Introducción
-Este proyecto corresponde al primero de la etapa de "Lab's" del programa de **Data Science** de **Henry**. El rol a desempeñar es el de MLOps Engineer.
+Este proyecto corresponde al primero de la etapa de *Lab's* del programa de **Data Science** de **Henry**. El rol a desempeñar es el de MLOps Engineer.
 
 ![Logo Henry](https://assets.soyhenry.com/henry-landing/assets/Henry/logo.png)
 
 ## Contexto de los datos
-Los datos a partir de los cuales se desarrolló el proyecto fueron dos archivos CSV: "movies_dataset.csv" y "credits.csv".
+Los datos a partir de los cuales se desarrolló el proyecto fueron dos archivos en formato csv: *movies_dataset.csv* y *credits.csv*.
 
-Datasets otorgados: [Enlace a los datasets](https://drive.google.com/drive/folders/1qyq-didCwr35Q9m2BOByNjYOf4rSQiYu?usp=sharing)
+- Datasets otorgados: [Enlace a los datasets](https://drive.google.com/drive/folders/1qyq-didCwr35Q9m2BOByNjYOf4rSQiYu?usp=sharing)
 
-Diccionario del dataset "movies_dataset.csv": [Enlace al diccionario](https://docs.google.com/spreadsheets/d/1QkHH5er-74Bpk122tJxy_0D49pJMIwKLurByOfmxzho/edit#gid=0)
+- Diccionario del dataset *movies_dataset.csv*: [Enlace al diccionario](https://docs.google.com/spreadsheets/d/1QkHH5er-74Bpk122tJxy_0D49pJMIwKLurByOfmxzho/edit#gid=0)
 
 ## Propuesta de trabajo
 
