@@ -10,7 +10,6 @@ app = FastAPI()
 
 # Obtengo los datos en un dataframe:
 df_movies = pd.read_csv("datasets/movies.csv", sep=",")
-df_movies.info()
 
 # FUNCIÓN 1:
 @app.get("/peliculas_idioma/{idioma}")
@@ -43,7 +42,7 @@ def peliculas_idioma(idioma: str):
     # Devuelvo error si no es string
     except ValueError as e:
         # Si no es un string devuelvo "error":
-        return e
+        return str(e)
     
 
 # FUNCIÓN 2:
@@ -319,3 +318,4 @@ def recomendacion(titulo: str):
     return recommendations_dict
 
 
+print(peliculas_idioma(8))
