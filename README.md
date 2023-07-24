@@ -1,7 +1,7 @@
 <h1 align=center> <strong>PROYECTO INDIVIDUAL Nº1</strong> </h1>
 
 <h2 align="center">Machine Learning Operations (MLOps)</h2>
-  <h3 align="center"> <i>Realizado por Olga Acosta </i></h3>
+  
   
 <p align="center">
   <img src="https://e17r5k-datap1.s3-eu-west-1.amazonaws.com/evercorp-empleo-blog/s3fs-public/mlops-versionado-de-modelos_0.png" alt="Imagen MLOps">
@@ -81,6 +81,10 @@ Se puede revisar el paso a paso documentado de las siete funciones en el siguien
 - Seaborn
 - FastAPI
 - Render API
+
+## Colaboradores
+* Olga Acosta
+>>  Linkedin : https://www.linkedin.com/in/olga-acosta-manrique
 
 
 
